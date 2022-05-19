@@ -11,10 +11,10 @@ on:
 
 env:
   AZURE_RESOURCEGROUP_NAME: ToyReusable
-  AZURE_REGION: northeurope
+  AZURE_REGION: westus3
   TEMPLATE_SPEC_NAME: linux-app-service
   TEMPLATE_SPEC_FILE_PATH: template-specs/linux-app-service/main.bicep
-  
+
 jobs:
   lint:
     runs-on: ubuntu-latest
